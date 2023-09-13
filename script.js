@@ -14,6 +14,7 @@ for(let key in obj){
         return key;
     }
 }
+	return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
